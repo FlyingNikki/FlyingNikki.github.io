@@ -24,11 +24,11 @@ body{
 }
 
 li{
-	padding: 30px;
+	padding: 0;
 }
 
 .Head{
-	font-size:30
+	font-size:30px;
 }
 div p{
 	font-size:20px;
