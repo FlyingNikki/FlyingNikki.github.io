@@ -1,8 +1,6 @@
 
 *{
 	text-align: center;
-	
-	
 }
 
 .Gaming{
@@ -18,11 +16,13 @@ body{
 .Start{
 	font-size: 30px;
 }
+
 .list {
     text-align: center;
     padding: 0;
     margin: 0;
 }
+
 li{
 	padding: 0;
 }
