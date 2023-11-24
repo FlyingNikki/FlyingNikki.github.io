@@ -24,5 +24,12 @@ body{
 }
 
 li{
-	padding: 0;
+	padding: 30px;
+}
+
+.Head{
+	font-size:30
+}
+div p{
+	font-size:20px;
 }
