@@ -3,6 +3,16 @@
 
 body{
 	background-color:Lightcyan;
+	
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+#second{
+	color: grey;
 }
 
 *{
