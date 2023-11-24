@@ -5,7 +5,7 @@
 	
 }
 
-Gaming{
+.Gaming{
 	
 }
 	
@@ -14,8 +14,8 @@ body{
 
 }
 
-Start{
-	
+.Start{
+	font-size: 30px;
 }
 .list {
     text-align: center;
