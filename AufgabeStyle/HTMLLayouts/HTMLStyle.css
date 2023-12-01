@@ -16,6 +16,9 @@ body{
 .Start{
 	font-size: 50px;
 }
+.Start:hover {
+  font-size:120%;
+}
 
 .list {
     text-align: center;
@@ -35,3 +38,4 @@ li{
 div p{
 	font-size:20px;
 }
+
