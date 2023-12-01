@@ -16,9 +16,7 @@ body{
 .Start{
 	font-size: 50px;
 }
-.Start:hover {
-  font-size:600%;
-}
+
 
 .list {
     text-align: center;
