@@ -1,0 +1,180 @@
+*{
+padding:2.5%;
+}
+
+Body{
+  background-image: url('HintergrundHexa.jpg');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+/*____________________________________________________________________________*/
+
+@media only screen and (min-width: 1200px) {
+ .BlockSystem{
+display:block;
+background-color:white;
+
+
+
+}
+.MainBox2{
+background-color:white;
+padding:2.5%;
+box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 
+1px inset;
+border-radius: 15px;
+display:flex;
+justify-content:center;
+}
+
+.Text{
+background-color:white;
+font-size:clamp(10px,8vw,25px);
+display:flex;
+align-self: center;
+}
+.Name{
+background-color:white;
+text-align:center;
+font-size:clamp(5px,2vw,25px);
+}
+.NavDrop{
+color:Black;
+text-decoration: none;
+font-size:clamp(10px,8vw,25px);
+
+padding:1.5%;
+}
+
+}
+
+/*____________________________________________________________________________*/
+
+.NavList {
+display:none;
+margin:1.5 0;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+background-color:white;
+}
+.NavDrop{
+color:Black;
+text-decoration: none;
+font-size:40px;
+
+padding:1.5%;
+}
+
+.NavDrop:hover .NavList{
+display:block;
+border-radius: 15px;
+padding:0.5%;
+}
+
+
+.NavList:hover{
+display:block;
+
+}
+
+.NavList li{
+display:inline-block;
+margin:0 1.5%;
+padding:1.5%;
+font-size:clamp(15px,4vw,30px);
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+background-color:gray;
+border-radius: 15px;
+
+}
+.Style{
+color:Black;
+text-decoration: none;
+font-size:clamp(5px,2vw,25px);
+}
+.Style:hover{
+box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+border-radius: 15px;
+}
+
+
+
+ .BlockSystem{
+  display:inline-block;
+  background-color:white;
+}
+
+.Titel{
+text-align:center;
+font-size:clamp(40px,8vw,105px);
+margin:0;
+padding:0;
+background-color:white;
+
+}
+.Text{
+background-color:white;
+font-size:25px;
+}
+.Bild{
+width:clamp(200px, 50%,2000px);
+height:clamp(200px, 50%, 2000px);
+margin-top:5%;
+margin-right:2.5%;
+magrin-left:2.5%;
+border-radius: 25px;
+padding:0;
+}
+
+.Name{
+background-color:white;
+text-align:center;
+font-size:30px;
+}
+.MainBox{
+background-color:white;
+padding:2.5%;
+box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 
+1px inset;
+border-radius: 15px;
+}
+.MainBox2{
+background-color:white;
+padding:2.5%;
+box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 
+1px inset;
+border-radius: 15px;
+display:flex;
+justify-content:center;
+}
+
+
+.Info{
+background-color:white;
+display:flex;
+box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 
+1px inset;
+border-radius: 15px;
+margin:2%;
+padding:2%;
+font-size:clamp(5px,2vw,25px);
+
+}
+.Spacebetween{
+margin:2%
+}
+
+.Centered{
+box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+border-radius: 15px;
+display:block;
+text-align:center;
+}
+
+.round{
+border-radius: 15px;
+}
